@@ -188,13 +188,18 @@ p {
     font-size: 36px;
 }
 
-.footer {
+.hover-footer:hover .footer {
+    text-align: center;
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
+    display: inline-block;
     font-size: 20px;
 }
+
+footer {
+    display: none;
+    
+   
+}
+
