@@ -106,6 +106,7 @@ margin-right: 5px;
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
+    padding: 5px;
 }
 
 .search-engine-optimization h2,
@@ -121,7 +122,7 @@ margin-right: 5px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     color: #ffffff;
@@ -145,17 +146,16 @@ margin-right: 5px;
     max-width: 150px;
 }
 
-.hover-footer:hover .hide {
+.hide {
     text-align:center;
     padding: 30px;
     clear:both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: block;
+    display: none;
     font-size: 20px;
     position:fixed;
     color:#ffffff;
 }
-
-.hide {
-    display: none;
+.hover-footer:hover .hide {
+    display: block;
 }
