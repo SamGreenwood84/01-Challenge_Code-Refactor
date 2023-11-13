@@ -30,6 +30,7 @@ body {
     color: #d9dcd6;
 }
 
+/*Added navbar for organization and accessibility*/
 .navbar {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -64,12 +65,12 @@ p {
     background-position: center;
     padding: 20px;
 }
-
+    /*Added flex-container for consistent seperation of .content and .benefits sections.*/
 .flex-container {
-display:flex;
-justify-content: space-around;
-align-items: flex-start;
-margin-right: 5px;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 5px;
 }
 
 .float-left {
@@ -83,14 +84,15 @@ margin-right: 5px;
     margin-right: 25px
 }
 
-    .content {
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        width: 75%;
-        margin-left: 20px;
+.content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 20px;
+    margin-top: 0%;
 }
-
+/*Consolidated article classes and organized headers*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -106,7 +108,6 @@ margin-right: 5px;
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
-    padding: 5px;
 }
 
 .search-engine-optimization h2,
@@ -128,6 +129,7 @@ margin-right: 5px;
     color: #ffffff;
 }
 
+    /*Consolidated section benefits*/
 .benefit-lead,
 .benefit-brand,
 .benefit-lead {
@@ -144,8 +146,10 @@ margin-right: 5px;
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    align-items: center;
 }
 
+/*Added .hide to footer as per mockup*/
 .hide {
     text-align:center;
     padding: 30px;
@@ -156,6 +160,6 @@ margin-right: 5px;
     position:fixed;
     color:#ffffff;
 }
-.hover-footer:hover .hide {
+.footer .hide {
     display: block;
 }

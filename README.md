@@ -1,4 +1,4 @@
-# 01-Challenge_Code-Refactor
+# # 01-Challenge_Code-Refactor
 Week 01 Challenge-HTML CSS Git Challenge: Code Refactor
 
 **User Story:**
@@ -7,18 +7,27 @@ AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
 
-**Acceptance Criteria**
+**# **Changed the head title to "Accessibility Webpage"****
 
-GIVEN a webpage meets accessibility standards
+**Improved Webpage accessibility standards by adding:**
+alt attributes
 
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+**Added Semantic HTML Elements:**
+header, nav, main, section, article and footer 
+Code Reference: [https://www.w3schools.com/html/html5_semantic_elements.asp](HTML Semantic Elements)
+
+**Organized content and benefits section by adding:**
+```css
+.flex-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 5px;
+}
+```
+Code Reference:[https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction](.flex-container and flex-direction)
+
+**Changed headers to sequential Order**
+
+**Hid Footer as per Mockup**
 
